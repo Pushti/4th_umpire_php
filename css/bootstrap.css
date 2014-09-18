@@ -531,7 +531,7 @@ th {
   content: "\e079";
 }
 .glyphicon-chevron-right:before {
-  /* content: "\e080"; */
+   content: "\e080"; 
 }
 .glyphicon-plus-sign:before {
   content: "\e081";
@@ -4582,7 +4582,7 @@ a.list-group-item.active > .badge,
     font-size: 63px;
   }
 }
-.thumbnail {
+#thumbnail {
   display: block;
   padding: 4px;
   margin-bottom: 20px;
@@ -4594,17 +4594,17 @@ a.list-group-item.active > .badge,
        -o-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out;
 }
-.thumbnail > img,
+#thumbnail > img,
 .thumbnail a > img {
   margin-right: auto;
   margin-left: auto;
 }
-a.thumbnail:hover,
-a.thumbnail:focus,
-a.thumbnail.active {
+a#thumbnail:hover,
+a#thumbnail:focus,
+a#thumbnail.active {
   border-color: #428bca;
 }
-.thumbnail .caption {
+#thumbnail .caption {
   padding: 9px;
   color: #333;
 }
@@ -4844,14 +4844,14 @@ a.thumbnail.active {
 .list-group-item > .badge + .badge {
   margin-right: 5px;
 }
-a.list-group-item {
+div.list-group-item {
   color: #555;
 }
-a.list-group-item .list-group-item-heading {
+div.list-group-item .list-group-item-heading {
   color: #333;
 }
-a.list-group-item:hover,
-a.list-group-item:focus {
+div.list-group-item:hover,
+div.list-group-item:focus {
   color: #555;
   text-decoration: none;
   background-color: #f5f5f5;
